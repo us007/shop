@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.silverpixelz.myapplication.utils.BlurNavigationDrawer.BlurDrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation_drawer"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:blurRadius="12"
+    app:closeDescription="@string/close_drawer"
+    app:downScaleFactor="6.0"
+    app:drawerUpImageId="@drawable/ic_menu"
+    app:openDescription="@string/open_drawer">
+
+    <android.support.design.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fitsSystemWindows="true"
+        tools:context="com.silverpixelz.myapplication.ui.Subscribe.SubscribeActivity">
+
+        <android.support.design.widget.AppBarLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:theme="@style/AppTheme.AppBarOverlay">
+
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:background="?attr/colorPrimary"
+                app:popupTheme="@style/AppTheme.PopupOverlay">
+
+                <ImageView
+                    android:id="@+id/img_logo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:contentDescription=""
+                    android:gravity="center"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/logo"
+                    tools:ignore="ContentDescription" />
+
+            </android.support.v7.widget.Toolbar>
+
+        </android.support.design.widget.AppBarLayout>
+
+        <include layout="@layout/content_subscribe" />
+
+    </android.support.design.widget.CoordinatorLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:orientation="vertical">
+
+        <android.support.design.widget.NavigationView
+            android:id="@+id/navigation_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:background="#CCffffff"
+            android:fitsSystemWindows="true"
+            app:elevation="0dp"
+            app:headerLayout="@layout/layout_navigation_header"
+            app:itemTextAppearance="@style/Base.TextAppearance.AppCompat.Small"
+            app:itemTextColor="#404041"
+            app:menu="@menu/menu_navigation" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#CCffffff"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingEnd="8dp"
+                android:paddingStart="8dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/silverpixelzlogo" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</com.silverpixelz.myapplication.utils.BlurNavigationDrawer.BlurDrawerLayout>

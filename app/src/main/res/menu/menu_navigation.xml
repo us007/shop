@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <group
+        android:id="@+id/menu1"
+        android:checkableBehavior="none">
+        <item
+            android:id="@+id/menu_home"
+            android:icon="@drawable/ic_home"
+            android:title="HOME" />
+
+        <item
+            android:id="@+id/menu_notification_history"
+            android:icon="@drawable/ic_notification"
+            app:actionLayout="@layout/nav_drawer_counter"
+            android:title="NOTIFICATION HISTORY" />
+
+        <item
+            android:id="@+id/menu_product_pdf"
+            android:icon="@drawable/ic_pdf"
+            android:title="PRODUCT PDF" />
+    </group>
+    <item
+        android:id="@+id/menu_about_us"
+        android:icon="@drawable/ic_side_menu_about_us"
+        android:title="ABOUT US" />
+
+    <item
+        android:id="@+id/menu_contact_us"
+        android:icon="@drawable/ic_contact_us"
+        android:title="CONTACT US" />
+
+    <item
+        android:id="@+id/menu_store_location"
+        android:icon="@drawable/ic_store_location1"
+        android:title="STORE LOCATIONS" />
+
+    <item
+        android:id="@+id/menu_catalouge"
+        android:icon="@drawable/ic_catalogue"
+        android:title="E-CATALOGUE" />
+
+    <item
+        android:id="@+id/menu_subscribe"
+        android:icon="@drawable/ic_subscribe"
+        android:title="SUBSCRIBE" />
+    <!--<group
+        android:id="@+id/menu2"
+        android:checkableBehavior="none">
+        <item
+            android:id="@+id/menu_about_us"
+            android:icon="@drawable/ic_about_us"
+            android:title="ABOUT US" />
+
+        <item
+            android:id="@+id/menu_contact_us"
+            android:icon="@drawable/ic_contact_us"
+            android:title="CONTACT US" />
+
+        <item
+            android:id="@+id/menu_store_location"
+            android:icon="@drawable/ic_store_location"
+            android:title="STORE LOCATIONS" />
+
+        <item
+            android:id="@+id/menu_catalouge"
+            android:icon="@drawable/ic_catalogue"
+            android:title="E-CATALOGUE" />
+
+        <item
+            android:id="@+id/menu_subscribe"
+            android:icon="@drawable/ic_subscribe"
+            android:title="SUBSCRIBE" />
+
+    </group>
+    <item
+        android:visible="false"
+        android:id="@+id/menu_setting"
+        android:icon="@drawable/ic_setting"
+        android:title="SETTINGS" />-->
+</menu>

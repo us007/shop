@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="20dp"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.silverpixelz.myapplication.ui.Subscribe.SubscribeActivity"
+    tools:showIn="@layout/activity_subscribe">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.3"
+                android:padding="5dp"
+                android:text="Name"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Body1"
+                android:textColor="#000000" />
+
+            <EditText
+                android:id="@+id/edt_sub_name"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.7"
+                android:background="@drawable/edt_border"
+                android:imeOptions="actionNext"
+                android:inputType="text"
+                android:padding="5dp"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Body1" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.3"
+                android:padding="5dp"
+                android:text="Contact No."
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Body1"
+                android:textColor="#000000" />
+
+            <EditText
+                android:id="@+id/edt_sub_contact"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:background="@drawable/edt_border"
+                android:imeOptions="actionNext"
+                android:inputType="phone"
+                android:padding="5dp"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Body1" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.2"
+                android:padding="5dp"
+                android:text=""
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Body1"
+                android:textColor="#000000"
+                android:visibility="invisible" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.3"
+                android:padding="5dp"
+                android:text="Email Id"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Body1"
+                android:textColor="#000000" />
+
+            <EditText
+                android:id="@+id/edt_sub_email"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:background="@drawable/edt_border"
+                android:imeOptions="actionNext"
+                android:inputType="textEmailAddress"
+                android:padding="5dp"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Body1" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.2"
+                android:padding="5dp"
+                android:text=""
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Body1"
+                android:textColor="#000000"
+                android:visibility="invisible" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.3"
+                android:padding="5dp"
+                android:text="Company"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Body1"
+                android:textColor="#000000" />
+
+            <EditText
+                android:id="@+id/edt_sub_company"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.7"
+                android:background="@drawable/edt_border"
+                android:imeOptions="actionNext"
+                android:inputType="text"
+                android:padding="5dp"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Body1" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.3"
+                android:gravity="start|top"
+                android:padding="5dp"
+                android:text="Country"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Body1"
+                android:textColor="#000000" />
+
+            <Spinner
+                android:id="@+id/spin_sub_country"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:padding="5dp"
+                android:background="@drawable/edt_border"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.2"
+                android:padding="5dp"
+                android:text=""
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Body1"
+                android:textColor="#000000"
+                android:visibility="invisible" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.3"
+                android:gravity="start|top"
+                android:padding="5dp"
+                android:text="Message"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Body1"
+                android:textColor="#000000"
+                android:visibility="invisible" />
+
+            <CheckBox
+                android:id="@+id/chk_adv_company"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.7"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Body1"
+                android:text="Advertising Company" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.3"
+                android:gravity="start|top"
+                android:padding="5dp"
+                android:text="Message"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Body1"
+                android:textColor="#000000"
+                android:visibility="invisible" />
+
+            <CheckBox
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Body1"
+                android:id="@+id/chk_event_company"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.7"
+                android:text="Event Management Company" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.3"
+                android:gravity="start|top"
+                android:padding="5dp"
+                android:text="Message"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Body1"
+                android:textColor="#000000"
+                android:visibility="invisible" />
+
+            <TextView
+                android:id="@+id/btn_subscribe"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_weight="0.5"
+                android:background="@color/colorAccent"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="SUBSCRIBE"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                android:textColor="#000000" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.2"
+                android:padding="5dp"
+                android:text=""
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Body1"
+                android:textColor="#000000"
+                android:visibility="invisible" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <include
+        layout="@layout/layout_search"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true" />
+
+</RelativeLayout>

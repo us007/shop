@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "646911263097",
+    "firebase_url": "https://silvergiftz-d3d78.firebaseio.com",
+    "project_id": "silvergiftz-d3d78",
+    "storage_bucket": "silvergiftz-d3d78.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:646911263097:android:ae0e190c8a247438",
+        "android_client_info": {
+          "package_name": "com.silverpixelz.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "646911263097-k5bk5e1rnipm0vpn9pmtlj1tc81g9876.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.silverpixelz.myapplication",
+            "certificate_hash": "c1bd6452eb0e1005cd16c318d48a40f0565cc48c"
+          }
+        },
+        {
+          "client_id": "646911263097-sn6idiubn651fjoa26124qbm31tp74c7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD3hglArl1Bnq1ZVQp3aSP51mvw8OvewG0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "646911263097-sn6idiubn651fjoa26124qbm31tp74c7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

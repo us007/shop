@@ -1,0 +1,7 @@
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical"
+    android:layout_margin="5dp"
+    android:background="@drawable/dr_notification"
+    android:textColor="@android:color/white"/>

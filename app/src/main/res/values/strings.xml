@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Silvergiftz</string>
+
+    <string name="open_drawer">open</string>
+    <string name="close_drawer">close</string>
+
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="title_activity_home"></string>
+    <string name="title_activity_product"></string>
+    <string name="title_activity_product_detail"></string>
+    <string name="title_activity_cart"></string>
+    <string name="title_activity_search"></string>
+    <string name="title_activity_contact_us"></string>
+    <string name="title_activity_locate_store">LocateStoreActivity</string>
+    <string name="title_activity_about_us">AboutUsActivity</string>
+    <string name="title_activity_pdf">PdfActivity</string>
+    <string name="title_activity_subscribe">SubscribeActivity</string>
+    <string name="title_activity_image_zoom">ImageZoomActivity</string>
+    <string name="title_activity_notification">NotificationActivity</string>
+</resources>
