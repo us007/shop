@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    tools:context="com.silverpixelz.myapplication.ui.LocateStore.LocateStoreActivity"
+    tools:context="com.flipboard.myapplication.ui.LocateStore.LocateStoreActivity"
     tools:showIn="@layout/activity_locate_store">
 
     <ScrollView

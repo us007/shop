@@ -3,9 +3,9 @@ apply plugin: 'realm-android'
 
 android {
     compileSdkVersion 27
-    buildToolsVersion '27.0.0'
+    buildToolsVersion '27.0.3'
     defaultConfig {
-        applicationId "com.silverpixelz.myapplication"
+        applicationId "com.flipboard.myapplication"
         minSdkVersion 19
         targetSdkVersion 27
         versionCode 12

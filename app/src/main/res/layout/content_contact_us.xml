@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    tools:context="com.silverpixelz.myapplication.ui.contactus.ContactUsActivity"
+    tools:context="com.flipboard.myapplication.ui.contactus.ContactUsActivity"
     tools:showIn="@layout/activity_contact_us">
 
     <ScrollView

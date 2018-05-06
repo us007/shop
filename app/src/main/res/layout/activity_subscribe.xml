@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<com.silverpixelz.myapplication.utils.BlurNavigationDrawer.BlurDrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<com.flipboard.myapplication.utils.BlurNavigationDrawer.BlurDrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/navigation_drawer"
@@ -15,7 +15,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:fitsSystemWindows="true"
-        tools:context="com.silverpixelz.myapplication.ui.Subscribe.SubscribeActivity">
+        tools:context="com.flipboard.myapplication.ui.Subscribe.SubscribeActivity">
 
         <android.support.design.widget.AppBarLayout
             android:layout_width="match_parent"
@@ -85,4 +85,4 @@
 
     </LinearLayout>
 
-</com.silverpixelz.myapplication.utils.BlurNavigationDrawer.BlurDrawerLayout>
+</com.flipboard.myapplication.utils.BlurNavigationDrawer.BlurDrawerLayout>
